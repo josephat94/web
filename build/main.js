@@ -212,10 +212,9 @@ var HomePasajePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home-pasaje',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\home-pasaje\home-pasaje.html"*/'\n  <ion-content  class="HomePasaje animate-top" style=" background: #F1EFED;" >\n      <div class="arrow-back" *ngIf="DatosUser">\n          <ion-icon name="md-arrow-back" style="font-size:24px; margin-right: 10px;" (click)="back(2)">\n    \n          </ion-icon>\n          REGRESAR\n        </div>\n\n        <div class="arrow-back" *ngIf="DatosCompra">\n            <ion-icon name="md-arrow-back" style="font-size:24px; margin-right: 10px;" (click)="back(1)"></ion-icon>\n          REGRESAR\n          </div> \n\n\n    <div style="width:100%; display: flex; justify-content: center;margin-top: 43px">\n      <img src="./assets/imgs/logo-login.svg" width="163px" alt="">\n    </div>\n\n\n    <div class="form-content" *ngIf="DatosViaje">\n      \n\n    <div class="label-form"> \n      Datos de viaje\n    </div>\n<div class="boxsing">Origen</div>\n<ion-item class="inp-form">\n  <ion-select [(ngModel)]="Origen" interface="popover" style="width: 100%">\n    <ion-option value="Palenque">Palenque</ion-option>\n    <ion-option value="Tabasco">Tabasco</ion-option>\n  </ion-select>\n</ion-item>\n\n<div class="boxsing">Destino</div>\n<ion-item class="inp-form">\n  <ion-select [(ngModel)]="Destino" interface="action-sheet" style="width: 100%">\n    <ion-option value="Palenque">Palenque $70.00 MXN</ion-option>\n    <ion-option value="Tabasco">Tabasco $120.00 MXN</ion-option>\n  </ion-select>\n</ion-item>\n<div class="multiline">\n  <div class="inpcol">\n\n      <div class="boxsing">Personas</div>\n      <ion-item class="inp-form">\n        <ion-select [(ngModel)]="personas" interface="popover" style="width: 100%">\n          <ion-option value="1">1</ion-option>\n          <ion-option value="2">2</ion-option>\n          <ion-option value="3">3</ion-option>\n          <ion-option value="4">4</ion-option>\n          <ion-option value="5">5</ion-option>\n          <ion-option value="6">6</ion-option>\n        </ion-select>\n      </ion-item>\n  </div>\n\n  <div class="inpcol">\n\n      <div class="boxsing">Horario</div>\n      <ion-item class="inp-form">\n        <ion-select [(ngModel)]="Horario" interface="action-sheet" style="width: 100%">\n          <ion-option value="1">10: 00 hrs</ion-option>\n          <ion-option value="2">11: 00 hrs</ion-option>\n          <ion-option value="3">12: 00 hrs</ion-option>\n          <ion-option value="4">13: 00 hrs</ion-option>\n        </ion-select>\n      </ion-item>\n  </div>\n</div>\n<div class="boxsing">Salida</div>\n<ion-item class="inp-form date-f">\n \n  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Salida"></ion-datetime>\n</ion-item>\n\n<div *ngIf="!soloida" class="boxsing">Regreso</div>\n<ion-item  *ngIf="!soloida" class="inp-form date-f">\n \n  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Regreso"></ion-datetime>\n</ion-item>\n\n<ion-item class="toggle-form">\n  <ion-label>Solo Ida</ion-label>\n  <ion-toggle [(ngModel)]="soloida"></ion-toggle>\n</ion-item>\n\n<ion-item class="toggle-form">\n  <ion-label>Varios Destinos</ion-label>\n  <ion-toggle [(ngModel)]="Escalas"></ion-toggle>\n</ion-item>\n\n<div style="margin-top:10px">\n  <button ion-button block color="menu" (click)="fillUserData()">SIGUIENTE</button>\n</div>\n    </div>\n\n\n\n    <div class="datosUser animate-right" *ngIf="DatosUser">\n        <div class="form-content">\n            <div class="label-form"> \n                Datos de Usuario\n              </div>\n        \n          <div class="boxsing">Nombre</div>\n                <ion-item class="inp-form">\n              <ion-input type="text"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Apellido</div>\n                <ion-item class="inp-form">\n              <ion-input type="text"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Genero</div>\n                <ion-item class="inp-form">\n                  <ion-select [(ngModel)]="Sexo" interface="popover" style="width: 100%">\n                    <ion-option value="M">Masculino</ion-option>\n                    <ion-option value="F">Femenino</ion-option>\n                  </ion-select>\n                </ion-item>\n\n                <div class="boxsing">Fecha de Nacimientp</div>\n                <ion-item class="inp-form date-f">\n                 \n                  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Salida"></ion-datetime>\n                </ion-item>\n        \n                <div class="boxsing">Correo Electrónico</div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Repite Correo Electrónico</div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n        \n                <div class="boxsing">Teléfono </div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing"> Repite Teléfono </div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n          \n                <div style="margin-top:10px">\n                    <button ion-button block color="menu" (click)="fillCompra()" >SIGUIENTE</button>\n                  </div>\n         \n              </div>\n\n\n          \n                                      \n        </div>\n\n\n\n        <div class="datosUser animate-right" *ngIf="DatosCompra">\n          \n          <div class="form-content-info">\n              <div class="label-form"> \n                  Datos de Pedido\n                </div>\n            <div class="row-info"> \n              <div class="col-info ">\n                  <div class="label">\n                      Nombre Cliente\n                    </div>\n                    <div class="name">Josephat Reyes Ordaz</div>\n              </div>\n\n              <div class="col-info final">\n                  <div class="label">Fecha</div>\n                  <div class="name">24/12/19</div>\n                </div>\n           \n            </div>\n\n            <div class="row-info">\n            <div class="col-info">\n              <div class="label">Origen</div>\n             \n             <div class="name">Origen</div> \n            </div>\n            <div class="col-info final" style="justify-content: flex-end;">\n              <div class="label">Destino</div>\n              <div class="name">Destino</div>\n\n            </div>\n          </div>\n            <div class="row-info">\n              <div class="col-info">\n                <div class="label">Número de personas</div>\n                <div class="name">4</div>\n              </div>\n              <div class="col-info final">\n                <div class="label">Hora</div>\n                <div class="name">10:00 hrs </div>\n              </div>\n\n            </div>\n            <div class="row-info">\n                <div class="col-info">\n                  <div class="label">Correo</div>\n                  <div class="name">correo@correo.com</div>\n                </div>\n                <div class="col-info final">\n                  <div class="label">Télefono</div>\n                  <div class="name">7771231231 </div>\n                </div>\n  \n              </div>\n\n              <div style="margin-top:20px" *ngIf="!AcceptedData">\n                  <button ion-button block color="menu" (click)="AcceptData()" >CONTINUAR</button>\n                </div>\n          </div>\n\n\n          \n          <div *ngIf="AcceptedData" class="form-content-tarjeta animate-bottom">\n                <div class="label-form"> \n                    Datos de Pago\n                  </div>\n\n                  <div class="boxsing">Número de tarjeta</div>\n                  <ion-item class="inp-form">\n                <ion-input type="number"></ion-input>\n                  </ion-item>\n          \n                  <div class="multiline">\n                      <div class="inpcol">\n                    \n                          <div class="boxsing">Fecha de Vencimiento</div>\n                          <ion-item class="inp-form1 date-f">\n \n                              <ion-datetime displayFormat="MM YY " [(ngModel)]="FVencimiento"></ion-datetime>\n                            </ion-item>\n                      </div>\n                    \n                      <div class="inpcol">\n                    \n                          <div class="boxsing">CCV</div>\n                          <ion-item class="inp-form2">\n                              <ion-input type="number"></ion-input>\n                          </ion-item>\n                      </div>\n                    </div>\n\n                    <div style="margin-top:10px">\n                        <button ion-button block color="menu" >COMPRAR</button>\n                      </div>\n\n\n                </div>\n         \n              </div>\n\n  </ion-content>\n\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\home-pasaje\home-pasaje.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]])
     ], HomePasajePage);
     return HomePasajePage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=home-pasaje.js.map
@@ -618,7 +617,7 @@ var map = {
 		9
 	],
 	"../pages/rutas/rutas.module": [
-		303,
+		298,
 		8
 	],
 	"../pages/tabs-pasaje/home-pasaje/home-pasaje.module": [
@@ -626,31 +625,31 @@ var map = {
 		7
 	],
 	"../pages/tabs-pasaje/horaros-tarifas/horaros-tarifas.module": [
-		298,
+		300,
 		6
 	],
 	"../pages/tabs-pasaje/mi-boleto/mi-boleto.module": [
-		300,
+		301,
 		5
 	],
 	"../pages/tabs-pasaje/tabs-pasaje.module": [
-		301,
+		302,
 		4
 	],
 	"../pages/tabs-turista/destinos/destinos.module": [
-		302,
+		303,
 		3
 	],
 	"../pages/tabs-turista/guia-viaje/guia-viaje.module": [
-		306,
+		304,
 		2
 	],
 	"../pages/tabs-turista/home-turista/home-turista.module": [
-		304,
+		305,
 		1
 	],
 	"../pages/tabs-turista/tabs-turista.module": [
-		305,
+		306,
 		0
 	]
 };
@@ -763,15 +762,15 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/modal-ini/modal-ini.module#ModalIniPageModule', name: 'ModalIniPage', segment: 'modal-ini', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/modal-login/modal-login.module#ModalLoginPageModule', name: 'ModalLoginPage', segment: 'modal-login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tabs-pasaje/horaros-tarifas/horaros-tarifas.module#HorarosTarifasPageModule', name: 'HorarosTarifasPage', segment: 'horaros-tarifas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rutas/rutas.module#RutasPageModule', name: 'RutasPage', segment: 'rutas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs-pasaje/home-pasaje/home-pasaje.module#HomePasajePageModule', name: 'HomePasajePage', segment: 'home-pasaje', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tabs-pasaje/horaros-tarifas/horaros-tarifas.module#HorarosTarifasPageModule', name: 'HorarosTarifasPage', segment: 'horaros-tarifas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs-pasaje/mi-boleto/mi-boleto.module#MiBoletoPageModule', name: 'MiBoletoPage', segment: 'mi-boleto', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs-pasaje/tabs-pasaje.module#TabsPasajePageModule', name: 'TabsPasajePage', segment: 'tabs-pasaje', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs-turista/destinos/destinos.module#DestinosPageModule', name: 'DestinosPage', segment: 'destinos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rutas/rutas.module#RutasPageModule', name: 'RutasPage', segment: 'rutas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tabs-turista/guia-viaje/guia-viaje.module#GuiaViajePageModule', name: 'GuiaViajePage', segment: 'guia-viaje', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs-turista/home-turista/home-turista.module#HomeTuristaPageModule', name: 'HomeTuristaPage', segment: 'home-turista', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tabs-turista/tabs-turista.module#TabsTuristaPageModule', name: 'TabsTuristaPage', segment: 'tabs-turista', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tabs-turista/guia-viaje/guia-viaje.module#GuiaViajePageModule', name: 'GuiaViajePage', segment: 'guia-viaje', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/tabs-turista/tabs-turista.module#TabsTuristaPageModule', name: 'TabsTuristaPage', segment: 'tabs-turista', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_12__ionic_storage__["a" /* IonicStorageModule */].forRoot()
