@@ -1,13 +1,13 @@
 webpackJsonp([13],{
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LangPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user_info_user_info__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user_info_user_info__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__classes_user__ = __webpack_require__(265);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90,7 +90,7 @@ var LangPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -139,7 +139,7 @@ var ModalLoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -210,7 +210,7 @@ var HomePasajePage = /** @class */ (function () {
     };
     HomePasajePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home-pasaje',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\home-pasaje\home-pasaje.html"*/'\n  <ion-content  class="HomePasaje animate-top" style=" background: #F1EFED;" >\n      <div class="arrow-back" *ngIf="DatosUser">\n          <ion-icon name="md-arrow-back" style="font-size:24px; margin-right: 10px;" (click)="back(2)">\n    \n          </ion-icon>\n          REGRESAR\n        </div>\n\n        <div class="arrow-back" *ngIf="DatosCompra">\n            <ion-icon name="md-arrow-back" style="font-size:24px; margin-right: 10px;" (click)="back(1)"></ion-icon>\n          REGRESAR\n          </div> \n\n\n    <div style="width:100%; display: flex; justify-content: center;margin-top: 43px">\n      <img src="./assets/imgs/logo-login.svg" width="163px" alt="">\n    </div>\n\n\n    <div class="form-content" *ngIf="DatosViaje">\n      \n\n    <div class="label-form"> \n      Datos de viaje\n    </div>\n<div class="boxsing">Origen</div>\n<ion-item class="inp-form">\n  <ion-select [(ngModel)]="Origen" interface="popover" style="width: 100%">\n    <ion-option value="Palenque">Palenque</ion-option>\n    <ion-option value="Tabasco">Tabasco</ion-option>\n  </ion-select>\n</ion-item>\n\n<div class="boxsing">Destino</div>\n<ion-item class="inp-form">\n  <ion-select [(ngModel)]="Destino" interface="action-sheet" style="width: 100%">\n    <ion-option value="Palenque">Palenque $70.00 MXN</ion-option>\n    <ion-option value="Tabasco">Tabasco $120.00 MXN</ion-option>\n  </ion-select>\n</ion-item>\n<div class="multiline">\n  <div class="inpcol">\n\n      <div class="boxsing">Personas</div>\n      <ion-item class="inp-form">\n        <ion-select [(ngModel)]="personas" interface="popover" style="width: 100%">\n          <ion-option value="1">1</ion-option>\n          <ion-option value="2">2</ion-option>\n          <ion-option value="3">3</ion-option>\n          <ion-option value="4">4</ion-option>\n          <ion-option value="5">5</ion-option>\n          <ion-option value="6">6</ion-option>\n        </ion-select>\n      </ion-item>\n  </div>\n\n  <div class="inpcol">\n\n      <div class="boxsing">Horario</div>\n      <ion-item class="inp-form">\n        <ion-select [(ngModel)]="Horario" interface="action-sheet" style="width: 100%">\n          <ion-option value="1">10: 00 hrs</ion-option>\n          <ion-option value="2">11: 00 hrs</ion-option>\n          <ion-option value="3">12: 00 hrs</ion-option>\n          <ion-option value="4">13: 00 hrs</ion-option>\n        </ion-select>\n      </ion-item>\n  </div>\n</div>\n<div class="boxsing">Salida</div>\n<ion-item class="inp-form date-f">\n \n  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Salida"></ion-datetime>\n</ion-item>\n\n<div *ngIf="!soloida" class="boxsing">Regreso</div>\n<ion-item  *ngIf="!soloida" class="inp-form date-f">\n \n  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Regreso"></ion-datetime>\n</ion-item>\n\n<ion-item class="toggle-form">\n  <ion-label>Solo Ida</ion-label>\n  <ion-toggle [(ngModel)]="soloida"></ion-toggle>\n</ion-item>\n\n<ion-item class="toggle-form">\n  <ion-label>Varios Destinos</ion-label>\n  <ion-toggle [(ngModel)]="Escalas"></ion-toggle>\n</ion-item>\n\n<div style="margin-top:10px">\n  <button ion-button block color="menu" (click)="fillUserData()">SIGUIENTE</button>\n</div>\n    </div>\n\n\n\n    <div class="datosUser animate-right" *ngIf="DatosUser">\n        <div class="form-content">\n            <div class="label-form"> \n                Datos de Usuario\n              </div>\n        \n          <div class="boxsing">Nombre</div>\n                <ion-item class="inp-form">\n              <ion-input type="text"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Apellido</div>\n                <ion-item class="inp-form">\n              <ion-input type="text"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Genero</div>\n                <ion-item class="inp-form">\n                  <ion-select [(ngModel)]="Sexo" interface="popover" style="width: 100%">\n                    <ion-option value="M">Masculino</ion-option>\n                    <ion-option value="F">Femenino</ion-option>\n                  </ion-select>\n                </ion-item>\n\n                <div class="boxsing">Fecha de Nacimientp</div>\n                <ion-item class="inp-form date-f">\n                 \n                  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Salida"></ion-datetime>\n                </ion-item>\n        \n                <div class="boxsing">Correo Electrónico</div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Repite Correo Electrónico</div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n        \n                <div class="boxsing">Teléfono </div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing"> Repite Teléfono </div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n          \n                <div style="margin-top:10px">\n                    <button ion-button block color="menu" (click)="fillCompra()" >SIGUIENTE</button>\n                  </div>\n         \n              </div>\n\n\n          \n                                      \n        </div>\n\n\n\n        <div class="datosUser animate-right" *ngIf="DatosCompra">\n          \n          <div class="form-content-info">\n              <div class="label-form"> \n                  Datos de Pedido\n                </div>\n            <div class="row-info"> \n              <div class="col-info ">\n                  <div class="label">\n                      Nombre Cliente\n                    </div>\n                    <div class="name">Josephat Reyes Ordaz</div>\n              </div>\n\n              <div class="col-info final">\n                  <div class="label">Fecha</div>\n                  <div class="name">24/12/19</div>\n                </div>\n           \n            </div>\n\n            <div class="row-info">\n            <div class="col-info">\n              <div class="label">Origen</div>\n             \n             <div class="name">Origen</div> \n            </div>\n            <div class="col-info final" style="justify-content: flex-end;">\n              <div class="label">Destino</div>\n              <div class="name">Destino</div>\n\n            </div>\n          </div>\n            <div class="row-info">\n              <div class="col-info">\n                <div class="label">Número de personas</div>\n                <div class="name">4</div>\n              </div>\n              <div class="col-info final">\n                <div class="label">Hora</div>\n                <div class="name">10:00 hrs </div>\n              </div>\n\n            </div>\n            <div class="row-info">\n                <div class="col-info">\n                  <div class="label">Correo</div>\n                  <div class="name">correo@correo.com</div>\n                </div>\n                <div class="col-info final">\n                  <div class="label">Télefono</div>\n                  <div class="name">7771231231 </div>\n                </div>\n  \n              </div>\n\n              <div style="margin-top:20px" *ngIf="!AcceptedData">\n                  <button ion-button block color="menu" (click)="AcceptData()" >CONTINUAR</button>\n                </div>\n          </div>\n\n\n          \n          <div *ngIf="AcceptedData" class="form-content-tarjeta animate-bottom">\n                <div class="label-form"> \n                    Datos de Pago\n                  </div>\n\n                  <div class="boxsing">Número de tarjeta</div>\n                  <ion-item class="inp-form">\n                <ion-input type="number"></ion-input>\n                  </ion-item>\n          \n                  <div class="multiline">\n                      <div class="inpcol">\n                    \n                          <div class="boxsing">Fecha de Vencimiento</div>\n                          <ion-item class="inp-form1 date-f">\n \n                              <ion-datetime displayFormat="MM YY " [(ngModel)]="FVencimiento"></ion-datetime>\n                            </ion-item>\n                      </div>\n                    \n                      <div class="inpcol">\n                    \n                          <div class="boxsing">CCV</div>\n                          <ion-item class="inp-form2">\n                              <ion-input type="number"></ion-input>\n                          </ion-item>\n                      </div>\n                    </div>\n\n                    <div style="margin-top:10px">\n                        <button ion-button block color="menu" >COMPRAR</button>\n                      </div>\n\n\n                </div>\n         \n              </div>\n\n  </ion-content>\n\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\home-pasaje\home-pasaje.html"*/,
+            selector: 'page-home-pasaje',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\home-pasaje\home-pasaje.html"*/'\n  <ion-content  class="HomePasaje animate-top" style=" background: #F1EFED;" >\n      <div class="arrow-back" *ngIf="DatosUser">\n          <ion-icon name="md-arrow-back" style="font-size:24px; margin-right: 10px;" (click)="back(2)">\n    \n          </ion-icon>\n          REGRESAR\n        </div>\n\n        <div class="arrow-back" *ngIf="DatosCompra">\n            <ion-icon name="md-arrow-back" style="font-size:24px; margin-right: 10px;" (click)="back(1)"></ion-icon>\n          REGRESAR\n          </div> \n\n\n    <div style="width:100%; display: flex; justify-content: center;margin-top: 43px">\n      <img src="./assets/imgs/logo-login.svg" width="163px" alt="">\n    </div>\n\n\n    <div class="form-content" *ngIf="DatosViaje">\n      \n\n    <div class="label-form"> \n      Datos de viaje\n    </div>\n<div class="boxsing">Origen</div>\n<ion-item class="inp-form">\n  <ion-select [(ngModel)]="Origen" interface="popover" style="width: 100%">\n    <ion-option value="Palenque">Palenque</ion-option>\n    <ion-option value="Tabasco">Tabasco</ion-option>\n  </ion-select>\n</ion-item>\n\n<div class="boxsing">Destino</div>\n<ion-item class="inp-form">\n  <ion-select [(ngModel)]="Destino" interface="action-sheet" style="width: 100%">\n    <ion-option value="Palenque">Palenque $70.00 MXN</ion-option>\n    <ion-option value="Tabasco">Tabasco $120.00 MXN</ion-option>\n  </ion-select>\n</ion-item>\n<div class="multiline">\n  <div class="inpcol">\n\n      <div class="boxsing">Personas</div>\n      <ion-item class="inp-form">\n        <ion-select [(ngModel)]="personas" interface="popover" style="width: 100%">\n          <ion-option value="1">1</ion-option>\n          <ion-option value="2">2</ion-option>\n          <ion-option value="3">3</ion-option>\n          <ion-option value="4">4</ion-option>\n          <ion-option value="5">5</ion-option>\n          <ion-option value="6">6</ion-option>\n        </ion-select>\n      </ion-item>\n  </div>\n\n  <div class="inpcol">\n\n      <div class="boxsing">Horario</div>\n      <ion-item class="inp-form">\n        <ion-select [(ngModel)]="Horario" interface="action-sheet" style="width: 100%">\n          <ion-option value="1">10: 00 hrs</ion-option>\n          <ion-option value="2">11: 00 hrs</ion-option>\n          <ion-option value="3">12: 00 hrs</ion-option>\n          <ion-option value="4">13: 00 hrs</ion-option>\n        </ion-select>\n      </ion-item>\n  </div>\n</div>\n<div class="boxsing">Salida</div>\n<ion-item class="inp-form date-f">\n \n  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Salida"></ion-datetime>\n</ion-item>\n\n<div *ngIf="!soloida" class="boxsing">Regreso</div>\n<ion-item  *ngIf="!soloida" class="inp-form date-f">\n \n  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Regreso"></ion-datetime>\n</ion-item>\n\n<ion-item class="toggle-form">\n  <ion-label>Solo Ida</ion-label>\n  <ion-toggle [(ngModel)]="soloida"></ion-toggle>\n</ion-item>\n\n<ion-item class="toggle-form">\n  <ion-label>Varios Destinos</ion-label>\n  <ion-toggle [(ngModel)]="Escalas"></ion-toggle>\n</ion-item>\n\n<div style="margin-top:10px">\n  <button ion-button block color="menu" (click)="fillUserData()">SIGUIENTE</button>\n</div>\n    </div>\n\n\n\n    <div class="datosUser animate-right" *ngIf="DatosUser">\n        <div class="form-content">\n            <div class="label-form"> \n                Datos de Usuario\n              </div>\n        \n          <div class="boxsing">Nombre</div>\n                <ion-item class="inp-form">\n              <ion-input type="text"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Apellido</div>\n                <ion-item class="inp-form">\n              <ion-input type="text"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Genero</div>\n                <ion-item class="inp-form">\n                  <ion-select [(ngModel)]="Sexo" interface="popover" style="width: 100%">\n                    <ion-option value="M">Masculino</ion-option>\n                    <ion-option value="F">Femenino</ion-option>\n                  </ion-select>\n                </ion-item>\n\n                <div class="boxsing">Fecha de Nacimientp</div>\n                <ion-item class="inp-form date-f">\n                 \n                  <ion-datetime displayFormat="MMM DD, YYYY " [(ngModel)]="Salida"></ion-datetime>\n                </ion-item>\n        \n                <div class="boxsing">Correo Electrónico</div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing">Repite Correo Electrónico</div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n        \n                <div class="boxsing">Teléfono </div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n        \n                <div class="boxsing"> Repite Teléfono </div>\n                <ion-item class="inp-form">\n              <ion-input type="mail"></ion-input>\n                </ion-item>\n          \n                <div style="margin-top:10px">\n                    <button ion-button block color="menu" (click)="fillCompra()" >SIGUIENTE</button>\n                  </div>\n         \n              </div>\n\n\n          \n                                      \n        </div>\n\n\n\n        <div class="datosUser animate-right" *ngIf="DatosCompra">\n          \n          <div class="form-content-info">\n              <div class="label-form"> \n                  Datos de Pedido\n                </div>\n            <div class="row-info"> \n              <div class="col-info ">\n                  <div class="label">\n                      Nombre Cliente\n                    </div>\n                    <div class="name">Cliente Cliente</div>\n              </div>\n\n              <div class="col-info final">\n                  <div class="label">Fecha</div>\n                  <div class="name">24/12/19</div>\n                </div>\n           \n            </div>\n\n            <div class="row-info">\n            <div class="col-info">\n              <div class="label">Origen</div>\n             \n             <div class="name">Ciudad Origen</div> \n            </div>\n            <div class="col-info final" style="justify-content: flex-end;">\n              <div class="label">Destino</div>\n              <div class="name">Ciudad Destino</div>\n\n            </div>\n          </div>\n            <div class="row-info">\n              <div class="col-info">\n                <div class="label">Número de personas</div>\n                <div class="name">4</div>\n              </div>\n              <div class="col-info final">\n                <div class="label">Hora</div>\n                <div class="name">10:00 hrs </div>\n              </div>\n\n            </div>\n            <div class="row-info">\n                <div class="col-info">\n                  <div class="label">Correo</div>\n                  <div class="name">correo@correo.com</div>\n                </div>\n                <div class="col-info final">\n                  <div class="label">Télefono</div>\n                  <div class="name">7771231231 </div>\n                </div>\n  \n              </div>\n\n              <div style="margin-top:20px" *ngIf="!AcceptedData">\n                  <button ion-button block color="menu" (click)="AcceptData()" >CONTINUAR</button>\n                </div>\n          </div>\n\n\n          \n          <div *ngIf="AcceptedData" class="form-content-tarjeta animate-bottom">\n                <div class="label-form"> \n                    Datos de Pago\n                  </div>\n\n                  <div class="boxsing">Número de tarjeta</div>\n                  <ion-item class="inp-form">\n                <ion-input type="number"></ion-input>\n                  </ion-item>\n          \n                  <div class="multiline">\n                      <div class="inpcol">\n                    \n                          <div class="boxsing">Fecha de Vencimiento</div>\n                          <ion-item class="inp-form1 date-f">\n \n                              <ion-datetime displayFormat="MM YY " [(ngModel)]="FVencimiento"></ion-datetime>\n                            </ion-item>\n                      </div>\n                    \n                      <div class="inpcol">\n                    \n                          <div class="boxsing">CCV</div>\n                          <ion-item class="inp-form2">\n                              <ion-input type="number"></ion-input>\n                          </ion-item>\n                      </div>\n                    </div>\n\n                    <div style="margin-top:10px">\n                        <button ion-button block color="menu" >COMPRAR</button>\n                      </div>\n\n\n                </div>\n         \n              </div>\n\n  </ion-content>\n\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\home-pasaje\home-pasaje.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]])
     ], HomePasajePage);
@@ -221,7 +221,7 @@ var HomePasajePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -266,7 +266,7 @@ var HorarosTarifasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -311,15 +311,245 @@ var MiBoletoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeTuristaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the HomeTuristaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var HomeTuristaPage = /** @class */ (function () {
+    function HomeTuristaPage(navCtrl, navParams, menuCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.menuCtrl = menuCtrl;
+        this.Paqs = [{ name: "Paquete todo en 1", url: 'paq1.png' }, { name: "Paquete básico", url: 'paq1.png' }, { name: "Paquete doble", url: 'paq1.png' }];
+        this.Hotels = [{ name: 1 }, { name: 1 }, { name: 1 }];
+    }
+    HomeTuristaPage.prototype.ionViewDidLoad = function () {
+        this.menuCtrl.enable(false, 'Pasajero');
+        this.menuCtrl.enable(true, 'Turista');
+        console.log('ionViewDidLoad HomeTuristaPage');
+    };
+    HomeTuristaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home-turista',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\home-turista\home-turista.html"*/'\n  <ion-content  class="fondoHome  animate-left">\n\n\n\n<ion-slides pager class="sliderpager">\n\n  <ion-slide class="slide-bg" >\n    <div class="rectangle">\n      LOREM IPSUM\n       </div>\n  </ion-slide>\n\n  <ion-slide class="slide-bg">\n    <div class="rectangle">\n      LOREM IPSUM\n       </div>\n  </ion-slide>\n\n\n\n</ion-slides>\n\n<ion-slides class="slidercards">\n  <ion-slide  class="slidepaq" textcenter *ngFor="let paq of Paqs; let i= index">\n\n      <ion-card class="card-paq">\n        <div class="header-element-card">\n            <div class="text-card">\n                <div class="Title-card">\n                {{paq.name}}\n                  </div>\n                  <div class="ShortDesc-card">Lorem ipsum dolor sit amet, si voluptatum velit.              </div>\n            </div>\n            <div class="like-card">\n              <ion-icon name="custom-like" style="font-size:20px"></ion-icon>\n            </div>\n          </div>\n          <div class="img-card">\n            <img src="./assets/imgs/paq1.png"  alt="">\n          </div>\n          <div class="footer-elements-card">\n            <div class="icons-card">\n              <div class="share">\n                <ion-icon name="custom-share"></ion-icon>\n              </div>\n           \n            </div>  \n            <div class="button-card">\n              <button ion-button color="primary" style="height:30px; width:90px; text-transform: uppercase"> Ver</button>\n            </div>\n          </div>\n        </ion-card>\n  </ion-slide>\n\n\n\n\n</ion-slides>\n\n<div class="list-box"> \n  <h3 >Hospedaje</h3>\n\n  <div *ngFor="let hotel of Hotels; let i= index" class="hotel">\n\n    <div class="image">\n      <img src="./assets/imgs/01.png" width="100%" alt="">\n    </div>\n    <div class="info">\n      <div class="nombre">Nombre del Hotel</div>\n<div class="start"></div>\n<div class="short-desc"> Lorem ipsum dolor sit amet consectetur.</div>\n<div class="foo">\n  <div class="circle">9.5</div>\n  <div class="text">Muy bueno</div>\n</div>\n    </div>\n\n    <div class="actions" style="padding-top: 8px; padding-bottom: 8px">\n        <img src="./assets/imgs/icon-map.svg" alt="">\n      <img src="./assets/imgs/icon-phone.svg" alt="">\n\n    </div>\n  </div>\n\n  <div style="width: 100%; display: flex; justify-content: center;">\n  <button ion-button color="primary" style="width: 127px; height: 35px;"> VER MAS</button>\n  </div>\n</div>\n\n<div class="listbox-rest">\n    <h3 >Restaurantes</h3>\n\n\n<div class="fila" >\n  <div class="rest">\n    <div class="image">\n      <img src="./assets/imgs/rest-01.png"   alt="">\n    </div>\n    <div class="nombre">Mombre del restaurante</div>\n    <div class="raiting">\n     <img src="./assets/imgs/star-on.svg" alt="">\n     <img src="./assets/imgs/star-on.svg" alt="">\n     <img src="./assets/imgs/star-on.svg" alt="">\n    </div>\n    <div class="desc">\n      Lorem ipsum dolor siamet consectetur.\n    </div>\n  </div>\n  <div class="rest">\n      <div class="image">\n        <img src="./assets/imgs/rest-02.png"   alt="">\n      </div>\n      <div class="nombre">Mombre del restaurante</div>\n      <div class="raiting">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n      </div>\n      <div class="desc">\n        Lorem ipsum dolor siamet consectetur.\n      </div>\n    </div>\n</div>\n\n<div class="fila" >\n    <div class="rest">\n      <div class="image">\n        <img src="./assets/imgs/rest-03.png"   alt="">\n      </div>\n      <div class="nombre">Mombre del restaurante</div>\n      <div class="raiting">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n      </div>\n      <div class="desc">\n        Lorem ipsum dolor siamet consectetur.\n      </div>\n    </div>\n    <div class="rest">\n        <div class="image">\n          <img src="./assets/imgs/rest-04.png"   alt="">\n        </div>\n        <div class="nombre">Nombre del restaurante</div>\n        <div class="raiting">\n         <img src="./assets/imgs/star-on.svg" alt="">\n         <img src="./assets/imgs/star-on.svg" alt="">\n         <img src="./assets/imgs/star-on.svg" alt="">\n        </div>\n        <div class="desc">\n          Lorem ipsum dolor siamet consectetur.\n        </div>\n      </div>\n  </div>\n  <div style="width: 100%; display: flex; justify-content: center;">\n      <button ion-button color="primary" style="width: 127px; height: 35px;"> VER MAS</button>\n      </div>\n</div>\n\n\n  \n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\home-turista\home-turista.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]])
+    ], HomeTuristaPage);
+    return HomeTuristaPage;
+}());
+
+//# sourceMappingURL=home-turista.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DestinosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the DestinosPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DestinosPage = /** @class */ (function () {
+    function DestinosPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    DestinosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DestinosPage');
+    };
+    DestinosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-destinos',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\destinos\destinos.html"*/'<!--\n  Generated template for the DestinosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Destinos</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\destinos\destinos.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], DestinosPage);
+    return DestinosPage;
+}());
+
+//# sourceMappingURL=destinos.js.map
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GuiaViajePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the GuiaViajePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var GuiaViajePage = /** @class */ (function () {
+    function GuiaViajePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    GuiaViajePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad GuiaViajePage');
+    };
+    GuiaViajePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-guia-viaje',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\guia-viaje\guia-viaje.html"*/'<!--\n  Generated template for the GuiaViajePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>GuiaViaje</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\guia-viaje\guia-viaje.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], GuiaViajePage);
+    return GuiaViajePage;
+}());
+
+//# sourceMappingURL=guia-viaje.js.map
+
+/***/ }),
+
+/***/ 123:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 123;
+
+/***/ }),
+
+/***/ 165:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/lang/lang.module": [
+		296,
+		12
+	],
+	"../pages/login/login.module": [
+		297,
+		11
+	],
+	"../pages/modal-ini/modal-ini.module": [
+		298,
+		10
+	],
+	"../pages/modal-login/modal-login.module": [
+		299,
+		9
+	],
+	"../pages/rutas/rutas.module": [
+		300,
+		8
+	],
+	"../pages/tabs-pasaje/home-pasaje/home-pasaje.module": [
+		301,
+		7
+	],
+	"../pages/tabs-pasaje/horaros-tarifas/horaros-tarifas.module": [
+		302,
+		6
+	],
+	"../pages/tabs-pasaje/mi-boleto/mi-boleto.module": [
+		303,
+		5
+	],
+	"../pages/tabs-pasaje/tabs-pasaje.module": [
+		304,
+		4
+	],
+	"../pages/tabs-turista/destinos/destinos.module": [
+		305,
+		3
+	],
+	"../pages/tabs-turista/guia-viaje/guia-viaje.module": [
+		306,
+		2
+	],
+	"../pages/tabs-turista/home-turista/home-turista.module": [
+		307,
+		1
+	],
+	"../pages/tabs-turista/tabs-turista.module": [
+		308,
+		0
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 165;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalIniPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lang_lang__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_info_user_info__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lang_lang__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_info_user_info__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tabs_turista_tabs_turista__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_login__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -394,281 +624,6 @@ var ModalIniPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 110:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeTuristaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the HomeTuristaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var HomeTuristaPage = /** @class */ (function () {
-    function HomeTuristaPage(navCtrl, navParams, menuCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.menuCtrl = menuCtrl;
-        this.Paqs = [{ name: "Paquete todo en 1", url: 'paq1.png' }, { name: "Paquete básico", url: 'paq1.png' }, { name: "Paquete doble", url: 'paq1.png' }];
-        this.Hotels = [{ name: 1 }, { name: 1 }, { name: 1 }];
-    }
-    HomeTuristaPage.prototype.ionViewDidLoad = function () {
-        this.menuCtrl.enable(false, 'Pasajero');
-        this.menuCtrl.enable(true, 'Turista');
-        console.log('ionViewDidLoad HomeTuristaPage');
-    };
-    HomeTuristaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home-turista',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\home-turista\home-turista.html"*/'\n  <ion-content  class="fondoHome  animate-left">\n\n\n\n<ion-slides pager class="sliderpager">\n\n  <ion-slide class="slide-bg" >\n    <div class="rectangle">\n      LOREM IPSUM\n       </div>\n  </ion-slide>\n\n  <ion-slide class="slide-bg">\n    <div class="rectangle">\n      LOREM IPSUM\n       </div>\n  </ion-slide>\n\n\n\n</ion-slides>\n\n<ion-slides class="slidercards">\n  <ion-slide  class="slidepaq" textcenter *ngFor="let paq of Paqs; let i= index">\n\n      <ion-card class="card-paq">\n        <div class="header-element-card">\n            <div class="text-card">\n                <div class="Title-card">\n                {{paq.name}}\n                  </div>\n                  <div class="ShortDesc-card">Lorem ipsum dolor sit amet, si voluptatum velit.              </div>\n            </div>\n            <div class="like-card">\n              <ion-icon name="custom-like" style="font-size:20px"></ion-icon>\n            </div>\n          </div>\n          <div class="img-card">\n            <img src="./assets/imgs/paq1.png"  alt="">\n          </div>\n          <div class="footer-elements-card">\n            <div class="icons-card">\n              <div class="share">\n                <ion-icon name="custom-share"></ion-icon>\n              </div>\n           \n            </div>  \n            <div class="button-card">\n              <button ion-button color="primary" style="height:30px; width:90px; text-transform: uppercase"> Ver</button>\n            </div>\n          </div>\n        </ion-card>\n  </ion-slide>\n\n\n\n\n</ion-slides>\n\n<div class="list-box"> \n  <h3 >Hospedaje</h3>\n\n  <div *ngFor="let hotel of Hotels; let i= index" class="hotel">\n\n    <div class="image">\n      <img src="./assets/imgs/01.png" width="100%" alt="">\n    </div>\n    <div class="info">\n      <div class="nombre">Nombre del Hotel</div>\n<div class="start"></div>\n<div class="short-desc"> Lorem ipsum dolor sit amet consectetur.</div>\n<div class="foo">\n  <div class="circle">9.5</div>\n  <div class="text">Muy bueno</div>\n</div>\n    </div>\n\n    <div class="actions" style="padding-top: 8px; padding-bottom: 8px">\n        <img src="./assets/imgs/icon-map.svg" alt="">\n      <img src="./assets/imgs/icon-phone.svg" alt="">\n\n    </div>\n  </div>\n\n  <div style="width: 100%; display: flex; justify-content: center;">\n  <button ion-button color="primary" style="width: 127px; height: 35px;"> VER MAS</button>\n  </div>\n</div>\n\n<div class="listbox-rest">\n    <h3 >Restaurantes</h3>\n\n\n<div class="fila" >\n  <div class="rest">\n    <div class="image">\n      <img src="./assets/imgs/rest-01.png"   alt="">\n    </div>\n    <div class="nombre">Mombre del restaurante</div>\n    <div class="raiting">\n     <img src="./assets/imgs/star-on.svg" alt="">\n     <img src="./assets/imgs/star-on.svg" alt="">\n     <img src="./assets/imgs/star-on.svg" alt="">\n    </div>\n    <div class="desc">\n      Lorem ipsum dolor siamet consectetur.\n    </div>\n  </div>\n  <div class="rest">\n      <div class="image">\n        <img src="./assets/imgs/rest-02.png"   alt="">\n      </div>\n      <div class="nombre">Mombre del restaurante</div>\n      <div class="raiting">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n      </div>\n      <div class="desc">\n        Lorem ipsum dolor siamet consectetur.\n      </div>\n    </div>\n</div>\n\n<div class="fila" >\n    <div class="rest">\n      <div class="image">\n        <img src="./assets/imgs/rest-03.png"   alt="">\n      </div>\n      <div class="nombre">Mombre del restaurante</div>\n      <div class="raiting">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n       <img src="./assets/imgs/star-on.svg" alt="">\n      </div>\n      <div class="desc">\n        Lorem ipsum dolor siamet consectetur.\n      </div>\n    </div>\n    <div class="rest">\n        <div class="image">\n          <img src="./assets/imgs/rest-04.png"   alt="">\n        </div>\n        <div class="nombre">Nombre del restaurante</div>\n        <div class="raiting">\n         <img src="./assets/imgs/star-on.svg" alt="">\n         <img src="./assets/imgs/star-on.svg" alt="">\n         <img src="./assets/imgs/star-on.svg" alt="">\n        </div>\n        <div class="desc">\n          Lorem ipsum dolor siamet consectetur.\n        </div>\n      </div>\n  </div>\n  <div style="width: 100%; display: flex; justify-content: center;">\n      <button ion-button color="primary" style="width: 127px; height: 35px;"> VER MAS</button>\n      </div>\n</div>\n\n\n  \n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\home-turista\home-turista.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]])
-    ], HomeTuristaPage);
-    return HomeTuristaPage;
-}());
-
-//# sourceMappingURL=home-turista.js.map
-
-/***/ }),
-
-/***/ 111:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RutasPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the RutasPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var RutasPage = /** @class */ (function () {
-    function RutasPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    RutasPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad RutasPage');
-    };
-    RutasPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rutas',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/'<!--\n  Generated template for the RutasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Rutas</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], RutasPage);
-    return RutasPage;
-}());
-
-//# sourceMappingURL=rutas.js.map
-
-/***/ }),
-
-/***/ 112:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DestinosPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the DestinosPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var DestinosPage = /** @class */ (function () {
-    function DestinosPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    DestinosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DestinosPage');
-    };
-    DestinosPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-destinos',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\destinos\destinos.html"*/'<!--\n  Generated template for the DestinosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Destinos</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\destinos\destinos.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], DestinosPage);
-    return DestinosPage;
-}());
-
-//# sourceMappingURL=destinos.js.map
-
-/***/ }),
-
-/***/ 113:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GuiaViajePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the GuiaViajePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var GuiaViajePage = /** @class */ (function () {
-    function GuiaViajePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    GuiaViajePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad GuiaViajePage');
-    };
-    GuiaViajePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-guia-viaje',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\guia-viaje\guia-viaje.html"*/'<!--\n  Generated template for the GuiaViajePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>GuiaViaje</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-turista\guia-viaje\guia-viaje.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], GuiaViajePage);
-    return GuiaViajePage;
-}());
-
-//# sourceMappingURL=guia-viaje.js.map
-
-/***/ }),
-
-/***/ 124:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 124;
-
-/***/ }),
-
-/***/ 166:
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"../pages/lang/lang.module": [
-		294,
-		12
-	],
-	"../pages/login/login.module": [
-		295,
-		11
-	],
-	"../pages/modal-ini/modal-ini.module": [
-		296,
-		10
-	],
-	"../pages/modal-login/modal-login.module": [
-		297,
-		9
-	],
-	"../pages/rutas/rutas.module": [
-		298,
-		8
-	],
-	"../pages/tabs-pasaje/home-pasaje/home-pasaje.module": [
-		299,
-		7
-	],
-	"../pages/tabs-pasaje/horaros-tarifas/horaros-tarifas.module": [
-		300,
-		6
-	],
-	"../pages/tabs-pasaje/mi-boleto/mi-boleto.module": [
-		301,
-		5
-	],
-	"../pages/tabs-pasaje/tabs-pasaje.module": [
-		302,
-		4
-	],
-	"../pages/tabs-turista/destinos/destinos.module": [
-		303,
-		3
-	],
-	"../pages/tabs-turista/guia-viaje/guia-viaje.module": [
-		304,
-		2
-	],
-	"../pages/tabs-turista/home-turista/home-turista.module": [
-		305,
-		1
-	],
-	"../pages/tabs-turista/tabs-turista.module": [
-		306,
-		0
-	]
-};
-function webpackAsyncContext(req) {
-	var ids = map[req];
-	if(!ids)
-		return Promise.reject(new Error("Cannot find module '" + req + "'."));
-	return __webpack_require__.e(ids[1]).then(function() {
-		return __webpack_require__(ids[0]);
-	});
-};
-webpackAsyncContext.keys = function webpackAsyncContextKeys() {
-	return Object.keys(map);
-};
-webpackAsyncContext.id = 166;
-module.exports = webpackAsyncContext;
-
-/***/ }),
-
 /***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -691,26 +646,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_modal_login_modal_login__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_modal_ini_modal_ini__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_lang_lang__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_user_info_user_info__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_storage__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_modal_login_modal_login__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_modal_ini_modal_ini__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_lang_lang__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_user_info_user_info__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_storage__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_turista_tabs_turista__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_turista_home_turista_home_turista__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_rutas_rutas__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_tabs_turista_destinos_destinos__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_tabs_turista_guia_viaje_guia_viaje__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_tabs_pasaje_home_pasaje_home_pasaje__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_rutas_rutas__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_tabs_turista_destinos_destinos__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_tabs_turista_guia_viaje_guia_viaje__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_tabs_pasaje_home_pasaje_home_pasaje__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_tabs_pasaje_tabs_pasaje__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_tabs_pasaje_mi_boleto_mi_boleto__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_tabs_pasaje_horaros_tarifas_horaros_tarifas__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_tabs_pasaje_mi_boleto_mi_boleto__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_tabs_pasaje_horaros_tarifas_horaros_tarifas__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -867,19 +822,345 @@ const Lang_eng={
 
 /***/ }),
 
-/***/ 292:
+/***/ 268:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return map_theme; });
+var map_theme = [
+    {
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ebe3cd"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#523735"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#f5f1e6"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#c9b2a6"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ae9e90"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.neighborhood",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#8b9259"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#dfd2ae"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#93817c"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#8b8f59"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#447530"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f1e6"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#fdfcf8"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f8c967"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#e9bc62"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway.controlled_access",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e98d58"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway.controlled_access",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#db8555"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#806b63"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#dfd2ae"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#8f7d77"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#ebe3cd"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.station",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#dfd2ae"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#6c7e8a"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#92998d"
+            }
+        ]
+    }
+];
+//# sourceMappingURL=MapStyle.js.map
+
+/***/ }),
+
+/***/ 269:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Destinos; });
+var Destinos = [
+    { nombre: "Cancún",
+        coords: { lat: 21.161908, lng: -86.851528 } },
+    { nombre: "Yucatán",
+        coords: { lat: 20.709879, lng: -89.094338 } },
+    { nombre: "Puerto Morelos",
+        coords: { lat: 20.847808, lng: -86.875534 } },
+    { nombre: "Playa del Carmen",
+        coords: { lat: 20.629559, lng: -87.073885 } },
+    { nombre: "Tulum",
+        coords: { lat: 20.211419, lng: -87.46535 } },
+    { nombre: "F.C. Puerto",
+        coords: { lat: 20.629559, lng: -87.073885 } },
+    { nombre: "Bacalar",
+        coords: { lat: 18.678292, lng: -88.392395 } },
+    { nombre: "Calakmal",
+        coords: { lat: 18.114527, lng: -89.808544 } },
+    { nombre: "Escárcega",
+        coords: { lat: 18.610183, lng: -90.739025 } },
+    { nombre: "Ciudad Campeche",
+        coords: { lat: 19.830125, lng: -90.534909 } },
+    { nombre: "Merida",
+        coords: { lat: 20.96737, lng: -89.592586 } },
+    { nombre: "Izamal",
+        coords: { lat: 20.93, lng: -89.022713 } },
+    { nombre: "Chichenitza",
+        coords: { lat: 20.709879, lng: -89.094338 } },
+    { nombre: "Valladolid",
+        coords: { lat: 20.68964, lng: -88.202249 } },
+    { nombre: "Tenosique",
+        coords: { lat: 17.472665, lng: -91.425051 } },
+    { nombre: "Palenque",
+        coords: { lat: 17.48477, lng: -92.045895 } },
+];
+//# sourceMappingURL=Destinos.js.map
+
+/***/ }),
+
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_tabs_turista_tabs_turista__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tabs_pasaje_tabs_pasaje__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_modal_ini_modal_ini__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_rutas_rutas__ = __webpack_require__(53);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -899,7 +1180,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen) {
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_7__pages_modal_ini_modal_ini__["a" /* ModalIniPage */]; //HomePage;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_7__pages_rutas_rutas__["a" /* RutasPage */]; //HomePage;
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
@@ -928,7 +1209,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 293:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -974,7 +1255,7 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_login_modal_login__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_login_modal_login__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_Esp_js__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_Eng__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tabs_pasaje_tabs_pasaje__ = __webpack_require__(51);
@@ -1037,9 +1318,9 @@ var LoginPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPasajePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_pasaje_home_pasaje__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__horaros_tarifas_horaros_tarifas__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mi_boleto_mi_boleto__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_pasaje_home_pasaje__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__horaros_tarifas_horaros_tarifas__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mi_boleto_mi_boleto__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1099,9 +1380,9 @@ var TabsPasajePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_turista_home_turista__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rutas_rutas__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__destinos_destinos__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__guia_viaje_guia_viaje__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rutas_rutas__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__destinos_destinos__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__guia_viaje_guia_viaje__ = __webpack_require__(112);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1156,14 +1437,126 @@ var TabsTuristaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 81:
+/***/ 53:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RutasPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_utils_MapStyle__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_utils_Destinos__ = __webpack_require__(269);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var RutasPage = /** @class */ (function () {
+    function RutasPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.markers = [];
+    }
+    RutasPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad RutasPage');
+        this.loadMap().then(function (map) {
+            _this.map = map;
+            __WEBPACK_IMPORTED_MODULE_3__app_utils_Destinos__["a" /* Destinos */].forEach(function (destino) {
+                console.log(destino);
+                _this.markers.push(_this.drawMarker(destino));
+            });
+        });
+    };
+    RutasPage.prototype.loadMap = function () {
+        var _this = this;
+        var prom = new Promise(function (resolve, reject) {
+            var estilo = __WEBPACK_IMPORTED_MODULE_2__app_utils_MapStyle__["a" /* map_theme */];
+            var map = new google.maps.Map(_this.mapElement.nativeElement, {
+                zoom: 6.8,
+                center: { lat: 19.22683, lng: -89.168715 },
+                styles: estilo,
+                maxZoom: 6.9,
+                minZoom: 6.7,
+                mapTypeControl: false,
+                scaleControl: true,
+                zoomControl: true,
+            });
+            resolve(map);
+        });
+        return prom;
+    };
+    RutasPage.prototype.drawMarker = function (mark) {
+        var _this = this;
+        console.log("En draw", mark);
+        var pin = './assets/imgs/pira.png';
+        var marker = new google.maps.Marker({
+            position: mark.coords,
+            map: this.map,
+            title: mark.name,
+            icon: pin,
+        });
+        marker.addListener('click', function () {
+            var contentString = '<div id="content">' +
+                '<div id="siteNotice">' +
+                '</div>' +
+                '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+                '<div id="bodyContent">' +
+                '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+                'sandstone rock formation in the southern part of the ' +
+                'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) ' +
+                'south west of the nearest large town, Alice Springs; 450&#160;km ' +
+                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major ' +
+                'features of the Uluru - Kata Tjuta National Park. Uluru is ' +
+                'sacred to the Pitjantjatjara and Yankunytjatjara, the ' +
+                'Aboriginal people of the area. It has many springs, waterholes, ' +
+                'rock caves and ancient paintings. Uluru is listed as a World ' +
+                'Heritage Site.</p>' +
+                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
+                'https://en.wikipedia.org/w/index.php?title=Uluru</a> ' +
+                '(last visited June 22, 2009).</p>' +
+                '</div>' +
+                '</div>';
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            infowindow.open(_this.map, marker);
+        });
+        return marker;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('map'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], RutasPage.prototype, "mapElement", void 0);
+    RutasPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-rutas',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/'<!--\n  Generated template for the RutasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Rutas</ion-title>\n  </ion-navbar>\n\n</ion-header>\n<ion-content>\n  <div #map id="map">\n\n  </div>\n\n</ion-content>\n\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], RutasPage);
+    return RutasPage;
+}());
+
+//# sourceMappingURL=rutas.js.map
+
+/***/ }),
+
+/***/ 82:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserInfoProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(167);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

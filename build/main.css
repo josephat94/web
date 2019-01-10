@@ -48779,6 +48779,11 @@ page-modal-login .form-content ion-select {
   max-width: 99%;
 }
 
+page-rutas #map {
+  width: 100%;
+  height: 100%;
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }
