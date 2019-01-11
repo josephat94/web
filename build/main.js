@@ -1,13 +1,13 @@
 webpackJsonp([13],{
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LangPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user_info_user_info__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user_info_user_info__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__classes_user__ = __webpack_require__(265);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90,7 +90,7 @@ var LangPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -139,7 +139,7 @@ var ModalLoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -218,51 +218,6 @@ var HomePasajePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=home-pasaje.js.map
-
-/***/ }),
-
-/***/ 108:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HorarosTarifasPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the HorarosTarifasPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var HorarosTarifasPage = /** @class */ (function () {
-    function HorarosTarifasPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    HorarosTarifasPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad HorarosTarifasPage');
-    };
-    HorarosTarifasPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-horaros-tarifas',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\horaros-tarifas\horaros-tarifas.html"*/'<!--\n  Generated template for the HorarosTarifasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="menu">\n    <ion-title>Horarios</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class=" animate-top" style=" background: #F1EFED;" >\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\horaros-tarifas\horaros-tarifas.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], HorarosTarifasPage);
-    return HorarosTarifasPage;
-}());
-
-//# sourceMappingURL=horaros-tarifas.js.map
 
 /***/ }),
 
@@ -473,55 +428,55 @@ webpackEmptyAsyncContext.id = 123;
 
 var map = {
 	"../pages/lang/lang.module": [
-		296,
+		297,
 		12
 	],
 	"../pages/login/login.module": [
-		297,
+		298,
 		11
 	],
 	"../pages/modal-ini/modal-ini.module": [
-		298,
+		299,
 		10
 	],
 	"../pages/modal-login/modal-login.module": [
-		299,
+		300,
 		9
 	],
 	"../pages/rutas/rutas.module": [
-		300,
+		301,
 		8
 	],
 	"../pages/tabs-pasaje/home-pasaje/home-pasaje.module": [
-		301,
+		302,
 		7
 	],
 	"../pages/tabs-pasaje/horaros-tarifas/horaros-tarifas.module": [
-		302,
+		303,
 		6
 	],
 	"../pages/tabs-pasaje/mi-boleto/mi-boleto.module": [
-		303,
+		304,
 		5
 	],
 	"../pages/tabs-pasaje/tabs-pasaje.module": [
-		304,
+		305,
 		4
 	],
 	"../pages/tabs-turista/destinos/destinos.module": [
-		305,
+		306,
 		3
 	],
 	"../pages/tabs-turista/guia-viaje/guia-viaje.module": [
-		306,
+		307,
 		2
 	],
 	"../pages/tabs-turista/home-turista/home-turista.module": [
-		307,
+		308,
 		1
 	],
 	"../pages/tabs-turista/tabs-turista.module": [
-		308,
+		309,
 		0
 	]
 };
@@ -548,9 +503,9 @@ module.exports = webpackAsyncContext;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalIniPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lang_lang__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_info_user_info__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tabs_turista_tabs_turista__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lang_lang__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_info_user_info__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tabs_turista_tabs_turista__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_login__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -648,24 +603,24 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(294);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_modal_login_modal_login__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_modal_login_modal_login__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_modal_ini_modal_ini__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_lang_lang__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_user_info_user_info__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_lang_lang__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_user_info_user_info__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_storage__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common_http__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_turista_tabs_turista__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_turista_tabs_turista__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_turista_home_turista_home_turista__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_rutas_rutas__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_rutas_rutas__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_tabs_turista_destinos_destinos__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_tabs_turista_guia_viaje_guia_viaje__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_tabs_pasaje_home_pasaje_home_pasaje__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_tabs_pasaje_home_pasaje_home_pasaje__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_tabs_pasaje_tabs_pasaje__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_tabs_pasaje_mi_boleto_mi_boleto__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_tabs_pasaje_horaros_tarifas_horaros_tarifas__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_tabs_pasaje_horaros_tarifas_horaros_tarifas__ = __webpack_require__(52);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1148,7 +1103,7 @@ var Destinos = [
 
 /***/ }),
 
-/***/ 294:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1158,9 +1113,10 @@ var Destinos = [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_tabs_turista_tabs_turista__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_tabs_turista_tabs_turista__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tabs_pasaje_tabs_pasaje__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_rutas_rutas__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_modal_ini_modal_ini__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_rutas_rutas__ = __webpack_require__(54);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1178,9 +1134,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen) {
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_7__pages_rutas_rutas__["a" /* RutasPage */]; //HomePage;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_7__pages_modal_ini_modal_ini__["a" /* ModalIniPage */]; //HomePage;
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
@@ -1197,19 +1154,23 @@ var MyApp = /** @class */ (function () {
     MyApp.prototype.goToPasaje = function () {
         this.rootPage = __WEBPACK_IMPORTED_MODULE_6__pages_tabs_pasaje_tabs_pasaje__["a" /* TabsPasajePage */];
     };
+    MyApp.prototype.goToRutas = function () {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_8__pages_rutas_rutas__["a" /* RutasPage */];
+    };
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\app\app.html"*/'<ion-menu id="Pasajero" [content]="mycontent" side="right">\n\n    <ion-header color="primary">\n\n        <ion-toolbar class="tool-menu" color="menu">\n\n          <ion-title>Menu Pasaje</ion-title>\n\n        </ion-toolbar>\n\n      </ion-header>\n\n      <ion-content  class="content-side-menu">\n\n        <ion-list>\n\n          <button ion-item menuToggle (click)="goToLogin()" >\n\n            Iniciar Sesión\n\n          </button>\n\n          <button ion-item menuToggle >\n\n            Rutas\n\n          </button>\n\n          <button ion-item menuToggle >\n\n            Events\n\n          </button>\n\n          <button ion-item menuToggle (click)="goToTurista()" >\n\n              Modo Turista\n\n            </button>\n\n          <button ion-item menuToggle >\n\n            Close Menu\n\n          </button>\n\n        </ion-list>\n\n      </ion-content>\n\n  </ion-menu>\n\n\n\n\n\n\n\n  <ion-menu id="Turista" [content]="mycontent" side="right">\n\n      <ion-header >\n\n          <ion-toolbar  class="tool-menu" color="menu">\n\n           <ion-row>\n\n             <ion-col style="display: flex; justify-content: flex-end; padding-right: 10px">\n\n              <img src="./assets/imgs/logoTrenMaya.png" width="120px" height="45px" alt="" style="display: flex">\n\n             </ion-col>\n\n           </ion-row>\n\n          </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="content-side-menu">\n\n          <ion-list>\n\n            <button ion-item menuToggle end (click)="goToLogin()" >\n\n              Iniciar Sesión\n\n            </button>\n\n            <button ion-item menuToggle end (click)="goToPasaje()" >\n\n              Comprar Pasajes\n\n            </button>\n\n            <button ion-item menuToggle end >\n\n              Contacto\n\n            </button>\n\n\n\n            <button ion-item menuToggle end   >\n\n                Embajadas\n\n              </button>\n\n            <button ion-item menuToggle end >\n\n              SOS\n\n            </button>\n\n          </ion-list>\n\n        </ion-content>\n\n    </ion-menu>\n\n\n\n\n\n<ion-nav #mycontent [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\app\app.html"*/'<ion-menu id="Pasajero" [content]="mycontent" side="right">\n\n    <ion-header color="primary">\n\n        <ion-toolbar class="tool-menu" color="menu">\n\n          <ion-title>Menu Pasaje</ion-title>\n\n        </ion-toolbar>\n\n      </ion-header>\n\n      <ion-content  class="content-side-menu">\n\n        <ion-list>\n\n          <button ion-item menuToggle (click)="goToLogin()" >\n\n            Iniciar Sesión\n\n          </button>\n\n          <button ion-item menuToggle (click)="goToRutas()" >\n\n            Rutas\n\n          </button>\n\n     \n\n          <button ion-item menuToggle (click)="goToTurista()" >\n\n              Modo Turista\n\n            </button>\n\n          <button ion-item menuToggle >\n\n            Close Menu\n\n          </button>\n\n        </ion-list>\n\n      </ion-content>\n\n  </ion-menu>\n\n\n\n\n\n\n\n  <ion-menu id="Turista" [content]="mycontent" side="right">\n\n      <ion-header >\n\n          <ion-toolbar  class="tool-menu" color="menu">\n\n           <ion-row>\n\n             <ion-col style="display: flex; justify-content: flex-end; padding-right: 10px">\n\n              <img src="./assets/imgs/logoTrenMaya.png" width="120px" height="45px" alt="" style="display: flex">\n\n             </ion-col>\n\n           </ion-row>\n\n          </ion-toolbar>\n\n        </ion-header>\n\n        <ion-content class="content-side-menu">\n\n          <ion-list>\n\n            <button ion-item menuToggle end (click)="goToLogin()" >\n\n              Iniciar Sesión\n\n            </button>\n\n            <button ion-item menuToggle end (click)="goToRutas()" >\n\n              Rutas\n\n            </button>\n\n            <button ion-item menuToggle end (click)="goToPasaje()" >\n\n              Comprar Pasajes\n\n            </button>\n\n            <button ion-item menuToggle end >\n\n              Contacto\n\n            </button>\n\n            <button ion-item menuToggle end   >\n\n                Embajadas\n\n              </button>\n\n            <button ion-item menuToggle end >\n\n              SOS\n\n            </button>\n\n          </ion-list>\n\n        </ion-content>\n\n    </ion-menu>\n\n\n\n\n\n<ion-nav #mycontent [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 295:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1255,7 +1216,7 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_login_modal_login__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_login_modal_login__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_Esp_js__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_Eng__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tabs_pasaje_tabs_pasaje__ = __webpack_require__(51);
@@ -1318,8 +1279,8 @@ var LoginPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPasajePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_pasaje_home_pasaje__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__horaros_tarifas_horaros_tarifas__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_pasaje_home_pasaje__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__horaros_tarifas_horaros_tarifas__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mi_boleto_mi_boleto__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1376,11 +1337,71 @@ var TabsPasajePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HorarosTarifasPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the HorarosTarifasPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var HorarosTarifasPage = /** @class */ (function () {
+    function HorarosTarifasPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.search = false;
+        this.salida = null;
+        this.buscarsalida = null;
+        this.searching = false;
+        this.horarios = [{ salida: '10:00 hrs', llegada: '12:00 hrs', precioP: '$100.00', precioT: '$200.00' }, { salida: '12:00 hrs', llegada: '14:00 hrs', precioP: '$200.00', precioT: '$300.00' }, { salida: '14:00 hrs', llegada: '16:00 hrs', precioP: '$200.00', precioT: '300.00' }];
+    }
+    HorarosTarifasPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad HorarosTarifasPage');
+    };
+    HorarosTarifasPage.prototype.buscarH = function () {
+        var _this = this;
+        this.searching = true;
+        setTimeout(function () {
+            _this.searching = false;
+            console.log(_this.search);
+            _this.salida = _this.buscarsalida;
+            _this.search = true;
+        }, 1500);
+    };
+    HorarosTarifasPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-horaros-tarifas',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\horaros-tarifas\horaros-tarifas.html"*/'<!--\n  Generated template for the HorarosTarifasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="menu">\n    <ion-title>Horarios</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class=" animate-top ctn-tablas" style=" background: #F1EFED;">\n\n  <!--Formulario de busqueda-->\n\n  <ion-row>\n\n    <ion-col>\n      <div class="inpcol">\n\n        <div class="boxsing">Salida</div>\n        <ion-item class="inp-form">\n          <ion-select [(ngModel)]="buscarsalida" interface="action-sheet" style="width: 100%" placeholder="Cancún">\n            <ion-option value="Cancún">Cancún</ion-option>\n            <ion-option value="Puerto Morelos">Puerto Morelos</ion-option>\n            <ion-option value="Playa del Carmen">Playa del Carmen</ion-option>\n\n          </ion-select>\n        </ion-item>\n      </div>\n    </ion-col>\n\n\n  </ion-row>\n  <ion-row>\n\n\n    <button ion-button block color="menu" (click)="buscarH()">Buscar Horarios</button>\n\n\n\n  </ion-row>\n\n\n\n  <div  *ngIf="searching" style="width: 100% ; display: flex; justify-content: center; align-items: center; margin-top: 240px;">\n\n      <ion-spinner></ion-spinner>\n\n  </div>\n\n  <!--Aqui se pintan los horarios-->\n  <div *ngIf="search==true && searching==false">\n\n    <ion-row *ngIf="search" class=" animate-top tableH">\n      <ion-row class="header-table">\n        De {{salida}} a Puerto Morelos\n      </ion-row>\n\n      <table>\n\n        <thead>\n          <tr class="sub-header-table">\n            <th> Salida </th>\n            <th> Llegada Aproximada </th>\n            <th> Pasajero </th>\n            <th> Turista </th>\n          </tr>\n        </thead>\n\n\n        <tbody>\n          <tr *ngFor="let horario of horarios; let i= index">\n            <td> {{horario.salida}} </td>\n            <td style="border-left:1px solid black">{{horario.llegada}}</td>\n            <td style="border-left:1px solid black">{{horario.precioP}}</td>\n            <td style="border-left:1px solid black">{{horario.precioT}}</td>\n          </tr>\n\n\n        </tbody>\n      </table>\n\n\n    </ion-row>\n    <ion-row class="tableH">\n      <ion-row class="header-table">\n        De {{salida}} a Playa del Carmen\n      </ion-row>\n\n      <table>\n\n        <thead>\n          <tr class="sub-header-table">\n            <th> Salida </th>\n            <th> Llegada Aproximada </th>\n            <th> Pasajero </th>\n            <th> Turista </th>\n          </tr>\n        </thead>\n\n\n        <tbody>\n          <tr *ngFor="let horario of horarios; let i= index">\n            <td> {{horario.salida}} </td>\n            <td style="border-left:1px solid black">{{horario.llegada}}</td>\n            <td style="border-left:1px solid black">{{horario.precioP}}</td>\n            <td style="border-left:1px solid black">{{horario.precioT}}</td>\n          </tr>\n\n\n        </tbody>\n      </table>\n\n\n    </ion-row>\n\n    <ion-row class="tableH">\n      <ion-row class="header-table">\n        De {{salida}} a Tulúm\n      </ion-row>\n\n      <table>\n\n        <thead>\n          <tr class="sub-header-table">\n            <th> Salida </th>\n            <th> Llegada Aproximada </th>\n            <th> Pasajero </th>\n            <th> Turista </th>\n          </tr>\n        </thead>\n\n\n        <tbody>\n          <tr *ngFor="let horario of horarios; let i= index">\n            <td> {{horario.salida}} </td>\n            <td style="border-left:1px solid black">{{horario.llegada}}</td>\n            <td style="border-left:1px solid black">{{horario.precioP}}</td>\n            <td style="border-left:1px solid black">{{horario.precioT}}</td>\n          </tr>\n\n\n        </tbody>\n      </table>\n\n\n    </ion-row>\n\n    <ion-row class="tableH">\n      <ion-row class="header-table">\n        De salida a FC Puerto:\n      </ion-row>\n      <table>\n        <thead>\n          <tr class="sub-header-table">\n            <th> Salida </th>\n            <th> Llegada Aproximada </th>\n            <th> Pasajero </th>\n            <th> Turista </th>\n          </tr>\n        </thead>\n\n\n        <tbody>\n          <tr *ngFor="let horario of horarios; let i= index">\n            <td> {{horario.salida}} </td>\n            <td style="border-left:1px solid black">{{horario.llegada}}</td>\n            <td style="border-left:1px solid black">{{horario.precioP}}</td>\n            <td style="border-left:1px solid black">{{horario.precioT}}</td>\n          </tr>\n        </tbody>\n      </table>\n    </ion-row>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\tabs-pasaje\horaros-tarifas\horaros-tarifas.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], HorarosTarifasPage);
+    return HorarosTarifasPage;
+}());
+
+//# sourceMappingURL=horaros-tarifas.js.map
+
+/***/ }),
+
+/***/ 53:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsTuristaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_turista_home_turista__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rutas_rutas__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rutas_rutas__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__destinos_destinos__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__guia_viaje_guia_viaje__ = __webpack_require__(112);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1437,7 +1458,7 @@ var TabsTuristaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 53:
+/***/ 54:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1446,6 +1467,8 @@ var TabsTuristaPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_utils_MapStyle__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_utils_Destinos__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_jquery__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1459,11 +1482,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var RutasPage = /** @class */ (function () {
     function RutasPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.markers = [];
+        this.infoWin = null;
     }
     RutasPage.prototype.ionViewDidLoad = function () {
         var _this = this;
@@ -1484,11 +1509,29 @@ var RutasPage = /** @class */ (function () {
                 zoom: 6.8,
                 center: { lat: 19.22683, lng: -89.168715 },
                 styles: estilo,
-                maxZoom: 6.9,
-                minZoom: 6.7,
+                maxZoom: 7,
+                minZoom: 6.5,
                 mapTypeControl: false,
                 scaleControl: true,
                 zoomControl: true,
+            });
+            // Bounds for North America
+            var strictBounds = new google.maps.LatLngBounds(new google.maps.LatLng(18.140073, -93.683923), new google.maps.LatLng(20.997539, -86.638555));
+            // Listen for the dragend event
+            google.maps.event.addListener(map, 'dragend', function () {
+                if (strictBounds.contains(map.getCenter()))
+                    return;
+                // We're out of bounds - Move the map back within the bounds
+                var c = map.getCenter(), x = c.lng(), y = c.lat(), maxX = strictBounds.getNorthEast().lng(), maxY = strictBounds.getNorthEast().lat(), minX = strictBounds.getSouthWest().lng(), minY = strictBounds.getSouthWest().lat();
+                if (x < minX)
+                    x = minX;
+                if (x > maxX)
+                    x = maxX;
+                if (y < minY)
+                    y = minY;
+                if (y > maxY)
+                    y = maxY;
+                map.setCenter(new google.maps.LatLng(y, x));
             });
             resolve(map);
         });
@@ -1497,7 +1540,7 @@ var RutasPage = /** @class */ (function () {
     RutasPage.prototype.drawMarker = function (mark) {
         var _this = this;
         console.log("En draw", mark);
-        var pin = './assets/imgs/pira.png';
+        var pin = './assets/imgs/marker-tren.png';
         var marker = new google.maps.Marker({
             position: mark.coords,
             map: this.map,
@@ -1505,30 +1548,53 @@ var RutasPage = /** @class */ (function () {
             icon: pin,
         });
         marker.addListener('click', function () {
-            var contentString = '<div id="content">' +
-                '<div id="siteNotice">' +
+            //  this.map.setCenter(mark.coords);
+            //Image-> ' <img src="./assets/imgs/01.png" width="50%" alt="">'+ 
+            var contentString = '<div style="width:100% " >' +
+                '<div >' +
                 '</div>' +
-                '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
-                '<div id="bodyContent">' +
-                '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-                'sandstone rock formation in the southern part of the ' +
-                'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) ' +
-                'south west of the nearest large town, Alice Springs; 450&#160;km ' +
-                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major ' +
-                'features of the Uluru - Kata Tjuta National Park. Uluru is ' +
-                'sacred to the Pitjantjatjara and Yankunytjatjara, the ' +
-                'Aboriginal people of the area. It has many springs, waterholes, ' +
-                'rock caves and ancient paintings. Uluru is listed as a World ' +
-                'Heritage Site.</p>' +
-                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> ' +
-                '(last visited June 22, 2009).</p>' +
+                '<h1 >' + mark.nombre + '</h1>' +
+                '<div >' +
+                ' <div style="width: 100%; display: flex; flex-direction: column; justify-content: center;  text-align: justify">' +
+                '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut volup possimus, dolorum qui nam magnam, dolor excepturi illum odio deserunt sequi quidem quibusdam sunt eos.</div>' +
                 '</div>' +
                 '</div>';
-            var infowindow = new google.maps.InfoWindow({
+            var iwOuter = __WEBPACK_IMPORTED_MODULE_4_jquery__('.gm-style-iw');
+            /* The DIV we want to change is above the .gm-style-iw DIV.
+             * So, we use jQuery and create a iwBackground variable,
+             * and took advantage of the existing reference to .gm-style-iw for the previous DIV with .prev().
+             */
+            var iwBackground = iwOuter.prev();
+            // Remove the background shadow DIV
+            console.log(iwBackground);
+            iwBackground.children(':nth-child(2)').css({ 'display': 'none' });
+            // Remove the white background DIV
+            iwBackground.children(':nth-child(4)').css({ 'display': 'none' });
+            iwOuter.parent().parent().css({ right: '50px', transition: '.5s all' });
+            // Moves the shadow of the arrow 76px to the left margin 
+            iwBackground.children(':nth-child(3)').find('div').children().css({ 'box-shadow': 'rgba(72, 181, 233, 0.6) 0px 1px 6px', 'z-index': '-1' });
+            var iwCloseBtn = iwOuter.next();
+            // Apply the desired effect to the close button
+            iwCloseBtn.css({ transition: '.5s all',
+                opacity: '1',
+                right: '60px', top: '23px',
+                width: '25px', height: '25px', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: '999',
+                textTransform: 'uppercase',
+                border: '1px solid #EF7622',
+                'border-radius': '50%',
+                'color': '#EF7622',
+                fontSize: '16px',
+                'box-shadow': '0 0 0px #3990B9' // 3D effect to highlight the button
+            });
+            iwCloseBtn.text('X');
+            if (_this.infoWin) {
+                _this.infoWin.close();
+                console.log("Deberia cerrarla");
+            }
+            _this.infoWin = new google.maps.InfoWindow({
                 content: contentString
             });
-            infowindow.open(_this.map, marker);
+            _this.infoWin.open(_this.map, marker);
         });
         return marker;
     };
@@ -1538,7 +1604,7 @@ var RutasPage = /** @class */ (function () {
     ], RutasPage.prototype, "mapElement", void 0);
     RutasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rutas',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/'<!--\n  Generated template for the RutasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Rutas</ion-title>\n  </ion-navbar>\n\n</ion-header>\n<ion-content>\n  <div #map id="map">\n\n  </div>\n\n</ion-content>\n\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/,
+            selector: 'page-rutas',template:/*ion-inline-start:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/'<!--\n  Generated template for the RutasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Rutas</ion-title>\n    <ion-buttons end>\n      <button only-icon ion-button menuToggle >\n        <ion-icon name="custom-mas"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n<ion-content>\n  <div #map id="map">\n\n  </div>\n\n</ion-content>\n\n\n'/*ion-inline-end:"C:\Users\josephat.reyes\Documents\Git\GITGITGIT\TM\src\pages\rutas\rutas.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], RutasPage);
@@ -1549,7 +1615,7 @@ var RutasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 82:
+/***/ 83:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
